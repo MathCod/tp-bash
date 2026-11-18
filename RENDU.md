@@ -2,11 +2,11 @@
 
 ## Identité
 
-Nom :
+Nom : BERGER
 
-Prénom :
+Prénom : Mathias
 
-Lien du dépôt GitHub :
+Lien du dépôt GitHub : https://github.com/MathCod/tp-bash
 
 ---
 
@@ -15,19 +15,21 @@ Lien du dépôt GitHub :
 Résultat de la commande `docker compose ps`, lancée sur le poste :
 
 ```text
-
+NAME      IMAGE         COMMAND            SERVICE   CREATED          STATUS              PORTS
+tp-bash   tp-bash:1.0   "sleep infinity"   labo      26 minutes ago   Up About a minute   
 ```
 
 Résultat de la commande `id`, lancée dans la machine :
 
 ```text
-
+uid=197609(mathi) gid=197609 groups=197609
 ```
 
 Résultat de la commande `git remote -v`, lancée sur le poste :
 
 ```text
-
+origin  https://github.com/MathCod/tp-bash.git (fetch)
+origin  https://github.com/MathCod/tp-bash.git (push)
 ```
 
 ---
